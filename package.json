@@ -1,0 +1,12 @@
+{
+  "name": "game",
+  "version": "0.0.1",
+  "description": "test dev game",
+  "main": "js/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kunok",
+  "license": "ISC",
+  "dependencies": {}
+}
