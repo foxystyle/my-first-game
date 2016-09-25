@@ -7,6 +7,7 @@ Controller.detectKey = (e)=>{
 }//detectKey
 
 Controller.triggerAction = (key)=>{
+  console.log(Character);
   switch (key) {
     case 'ArrowUp':
       Movement.up()

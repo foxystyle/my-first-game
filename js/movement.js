@@ -1,12 +1,12 @@
 var Movement = {}
 
 Movement.up = function(){
-
   if (Character.y === 1 || Character.y === 0) return;
   Character.y -= 1;
   var character = Character.element();
   var top = character.style.top;
       top = (+top.slice(0, -2))-50;
+      console.log(top);
       top = top + "px";
   character.style.top = top;
 }

@@ -1,7 +1,7 @@
 var Character = {}
 
-Character.x = 0;
-Character.y = 0;
+Character.x = 5;
+Character.y = 7;
 
 Character.element = function(){
   return document.getElementById('char');
@@ -11,14 +11,14 @@ Character.init = function(){
 
   canvas = document.getElementById('canvas');
 
-  var x = 0,
-      y = 0;
+  var x = 5,
+      y = 7;
 
   var matchingPosition = document.querySelectorAll(
     'div[data-x="'+x+'"][data-y="'+y+'"]'
   );
 
-  canvas.innerHTML += '<div id="char"></div>';
+  canvas.innerHTML += '<div id="char" style="top: 350px; left: 250px"></div>';
 
   Character.element();
 
